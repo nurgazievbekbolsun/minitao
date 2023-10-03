@@ -1,0 +1,12 @@
+#pradaj{
+  .pradaj{
+    &__block{
+      h2{}
+    }
+    &__group{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+  }
+}

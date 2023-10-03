@@ -1,9 +1,14 @@
+import "./index.scss"
 const Footer = () => {
   return (
-    <div>
-
-    </div>
+    <footer id="footer">
+      <div className="container">
+        <div className="footer">
+            
+        </div>
+      </div>
+    </footer>
   )
 }
 
-export default Footer
+export default Footer;
