@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { SlPresent } from "react-icons/sl";
 const Header = () => {
   return (
-    <div id="header">
+    <header id="header">
       <div className="container">
         <div className="header">
           <div className="header__berx-header">
@@ -19,12 +19,18 @@ const Header = () => {
               <NavLink to={""}>Контакты</NavLink>
             </div>
             <div className="header__rigth">
-              <NavLink to={""}>Ежедневно, с 8:00 до 18:00</NavLink>
+              <NavLink to={""}>
+                Ежедневно, с <b>10:00</b> до <b>22:00</b>{" "}
+              </NavLink>
               <h2>8 800 444 00 65</h2>
 
               <button>Заказать звонок</button>
             </div>
           </div>
+        </div>
+      </div>
+      <div id="head">
+        <div className="container">
           <div className="header__nij-header">
             <h1>Mini Tao</h1>
             <button>
@@ -188,9 +194,18 @@ const Header = () => {
               </div>
             </div>
           </div>
+          <div className="header__foot">
+            <NavLink to={""}>Одежда и обувь</NavLink>
+            <NavLink to={""}>Электроника</NavLink>
+            <NavLink to={""}>Дом и сад</NavLink>
+            <NavLink to={""}>Детские товары</NavLink>
+            <NavLink to={""}>Premium</NavLink>
+            <NavLink to={""}>Бренды</NavLink>
+            <NavLink to={""}>Бытовая техника</NavLink>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
